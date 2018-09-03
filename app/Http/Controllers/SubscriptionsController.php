@@ -83,6 +83,7 @@ class SubscriptionsController extends Controller
     {
         //fetch by ID subscription details.
         $subscriptions = Subscription::find($id);
+        $subscriptions->subscription_end = $request->input();
         return response()->json($subscriptions);
 
     }
