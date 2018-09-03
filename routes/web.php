@@ -21,7 +21,7 @@ Route::get('/sendemail',function(){
 
         $data = [
 
-               'title'=>"Hello from Team SLS",
+               'title'=>"Hello from Team",
                'content'=>'This is an auto generated email - please dont reply to this'
 
         ];
